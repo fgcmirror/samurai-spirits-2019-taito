@@ -1,0 +1,122 @@
+2026-05-16 03:29:02 URL:http://localhost:60751/ [18230/18230] -> "localhost:60751/index.html.tmp.tmp" [1]
+http://localhost:60751/robots.txt:
+2026-05-16 03:29:02 ERROR 404: File not found.
+2026-05-16 03:29:02 URL:http://localhost:60751/Content/css/boilerplate.css [11049/11049] -> "localhost:60751/Content/css/boilerplate.css.tmp.tmp" [1]
+2026-05-16 03:29:02 URL:http://localhost:60751/Content/css/flexslider.css [5245/5245] -> "localhost:60751/Content/css/flexslider.css.tmp.tmp" [1]
+2026-05-16 03:29:02 URL:http://localhost:60751/Content/css/nxl_styles.css [84244/84244] -> "localhost:60751/Content/css/nxl_styles.css.tmp.tmp" [1]
+2026-05-16 03:29:02 URL:http://localhost:60751/Content/css/nxl_lightbox.css [3814/3814] -> "localhost:60751/Content/css/nxl_lightbox.css.tmp.tmp" [1]
+2026-05-16 03:29:02 URL: http://localhost:60751/bundles/modernizr 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Scripts/jquery-1.10.2.js 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/title_nesicalive_m.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/title_nesicalive.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/menu_live2.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/menu_live.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/icon_facebook.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/icon_twitter.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/zone/6/item/0000/4e678ec1-cd51-4ee6-9177-4a49ee9f247f_p_01_ja.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/zone/6/item/0000/bd99252d-5197-4f62-b6c4-a86a2784d3bf_p_03_ja.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/zone/6/item/0000/e134afb3-6322-44d9-811d-ef2174e40206_p_04_ja.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/zone/6/item/0000/bd99252d-5197-4f62-b6c4-a86a2784d3bf_p_05_ja.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/logo_taito.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Scripts/jquery.cookie.js 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Scripts/jquery.flexslider.js 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Scripts/main/main.js 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Scripts/main/lightbox.min.js 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/fonts/flexslider-icon.eot 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/fonts/flexslider-icon.eot? 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/fonts/flexslider-icon.woff 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/fonts/flexslider-icon.ttf 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/fonts/flexslider-icon.svg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/nesicalive_about_bg_m.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/nesicalive_about_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/img/about/about_title_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/about/about_title_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playtitle/playtitle_title_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playshop/playshop_title_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/news/news_title_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playshop01/playshop01_title_bg.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_title_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto01-menu-off.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto02-menu-off.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto03-menu-off.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto01-menu-ov.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto02-menu-ov.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto03-menu-ov.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_touroku_off.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_touroku_ov.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_playshop2_btn_ov.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_playshop2_btn_off.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_playshop_btn_ov.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/howto/howto_playshop_btn_off.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playtitle/playtitle_title01_bg_m.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playtitle/playtitle_title00_bg_m.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playtitle/playtitle_title01_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/playtitle/playtitle_title00_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/howto_link_bg_m.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/nxl/top/howto_link_bg.jpg 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/ico_sns_twitter.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/images/ico_sns_line.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/css/close.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/css/loading.gif 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/css/prev.png 200 OK
+unlink: No such file or directory
+2026-05-16 03:29:02 URL: http://localhost:60751/Content/css/next.png 200 OK
+unlink: No such file or directory
+Found no broken links.
+
+FINISHED --2026-05-16 03:29:02--
+Total wall clock time: 0.04s
+Downloaded: 5 files, 120K in 0s (1.54 GB/s)

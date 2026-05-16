@@ -1,0 +1,687 @@
+
+<!DOCTYPE html>
+<!--
+TODO:
+lang属性に言語コードが入ります。
+日本語ページでは'ja'が、英語ページでは'en'が入ります。
+-->
+<html class="no-js" prefix="og: http://ogp.me/ns#" lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" id="js-viewport">
+    <script src="https://cdn.jsdelivr.net/npm/viewport-extra@1.0.4/dist/viewport-extra.min.js"></script>
+    <script>
+        var ua = navigator.userAgent
+        var sp = (ua.indexOf('iPhone') > 0 || ua.indexOf('Android') > 0 && ua.indexOf('Mobile') > 0)
+        var tab = (ua.indexOf('iPad') > 0 || (!sp && ua.indexOf('Android') > 0))
+        new ViewportExtra(tab ? 1280 : 375)
+
+        var isIOS = /iPad/.test(navigator.platform) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        var checkVersion = /Version\/13/;
+        if (isIOS && checkVersion.test(navigator.userAgent)) {
+            document.querySelector("meta[name='viewport']").setAttribute('content', 'width=1300');
+        }
+    </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <link rel="stylesheet" href="/Content/css/app.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.2.0/dist/css/yakuhanjp-noto.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500|Open+Sans:400,600&display=swap" />
+    <!--
+    TODO:
+    各種ページ情報が入ります。
+    表示中ページの内容によって内容を変更してください。
+    -->
+    <title>ページが見つかりません｜株式会社タイトー</title>
+    <meta name="description" content="申し訳ございませんが、お探しのページは存在しないか、アクセスできません。" />
+    <meta property="og:site_name" content="株式会社タイトー" />
+    <meta property="og:url" content="https://www.taito.co.jp/Error/404" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:title" content="株式会社タイトー" />
+    <meta property="og:description" content="東京都新宿区。株式会社タイトーの公式サイトです。申し訳ございませんが、お探しのページは存在しないか、アクセスできません。" />
+    <meta property="og:image" content="https://www.taito.co.jp/Content/images/ogp_404.png" />
+    <meta name="twitter:title"  content="株式会社タイトー" />
+    <meta name="twitter:description"  content="東京都新宿区。株式会社タイトーの公式サイトです。申し訳ございませんが、お探しのページは存在しないか、アクセスできません。" />
+    <meta name="twitter:image" content="https://www.taito.co.jp/Content/images/ogp_404.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W4BW4VS');</script>
+<!-- End Google Tag Manager -->
+</head>
+<body class="js-anim-body anim-body not-found-page" id="body-top">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W4BW4VS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <div class="l-overlay" id="js-overlay"></div>
+    <div class="l-wrapper" id="js-wrapper">
+        <!--TODO: Square particles are generated randomly via script-->
+        <!--
+        ここにスプライトSVGが出力されます。
+        削除しないようお願いします。
+        -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="svg-sprite">
+            <symbol id="sprite-arcadeblack" viewBox="0 0 93.54 68.03">
+                <defs>
+                    <style>
+
+                        .arc-1 {
+                            fill: #000;
+                            stroke-width: 0
+                        }
+                    </style>
+                </defs>
+                <title>arcadeblack</title>
+                <path class="arc-1" d="M17.01 0h8.5v8.5h-8.5zm51.02 0h8.5v8.5h-8.5z" />
+                <path class="arc-1" d="M87.56 35.88v-8.5h-8.51v-8.51h-8.5v-8.5h-8.5v8.5H36.53v-8.5H28v8.5h-8.5v8.51H11v8.5H2.52v25.51H11v-17h8.51v17H28v-8.5h42.55v8.5h8.5v-17h8.51v17h8.5V35.88zm-17-8.5v8.5h-8.5v-8.5zm-34 0v8.5H28v-8.5z" transform="translate(-2.52 -1.87)" />
+                <path class="arc-1" d="M25.51 59.53h17.01v8.5H25.51zm25.51 0h17.01v8.5H51.02z" />
+            </symbol>
+            <symbol id="sprite-arcadeblackhover" viewBox="0 0 93.54 68.03">
+                <title>arcadeblackhover</title>
+                <g id="レイヤー_2" data-name="レイヤー 2">
+                    <path d="M17.01 0h8.5v8.5h-8.5zm51.02 0h8.5v8.5h-8.5zM85 8.5v17h-8.5V17H68V8.5h-8.5V17H34V8.5h-8.49V17H17v8.5H8.5v-17H0v34h8.5V51H17v8.51h8.5V51H68v8.51h8.51V51H85v-8.5h8.5v-34zm-17 17V34h-8.5v-8.5zm-34 0V34h-8.49v-8.5zM8.5 59.53H17v8.5H8.5zm68.04 0h8.5v8.5h-8.5z" stroke-width="0" id="characters" />
+                </g>
+            </symbol>
+            <symbol id="sprite-event" viewBox="0 0 86.87 67.84">
+                <title>event</title>
+                <path class="event-1" d="M84.39 19.15v-8.39H76V8.42H64.67V0h-8.39v8.42H30.59V0H22.2v8.42H10.87v2.37H2.48v8.39H0v37h2.48v8.39h8.39v3.34H76v-3.42h8.39V56.1h2.48V19.15zm-5.91 37H76v3.27H10.87V56.1H8.39V35.93h70.09zM8.39 27.54v-8.39h2.48v-2.37H22.2v8.39h8.39v-8.39h25.69v8.39h8.39v-8.39H76v2.37h2.48v8.39z" />
+                <path class="event-1" d="M39.24 43.49h8.39v8.39h-8.39zm-16.78 8.39v-8.39h8.39v8.39zm33.56.01V43.5h8.39v8.39z" />
+            </symbol>
+            <symbol id="sprite-eventhover" viewBox="0 0 127.56 68.03">
+                <title>icon-event-hover</title>
+                <path class="eventhover-1" d="M17.01 25.51h8.5v8.5h-8.5zM0 42.52h8.5v8.5H0zm42.52-25.51h8.5v17.01h-8.5zm0-17.01h8.5v8.5h-8.5zm17.01 17.01h8.5v8.5h-8.5zm17.01 0h8.5v8.5h-8.5zm8.5-8.51h8.5V17h-8.5zm17.01 42.52h8.5v17.01h-8.5zm17.01 8.51h8.5v8.5h-8.5zM76.54 34.02v17h-8.51v-17H51.02v17h-8.5v-8.5h-8.5v8.5H17.01v8.51H8.5v8.5h85.04v-8.5h-8.5V42.52h8.5v-8.5h-17zm17 8.5h8.5v8.5h-8.5z" data-name="レイヤー 2" />
+            </symbol>
+            <symbol id="sprite-game" viewBox="0 0 136.06 59.53">
+                <title>game</title>
+                <path class="game-1" d="M127.56 34v-8.49h-8.5V17h-8.51V8.5h-17V0h-51v8.5h-17V17H17v8.5H8.5V34H0v8.5h17V51h8.5v8.51H34V51h8.5v-8.5h17V51h17v-8.5h17V51h8.51v8.51h8.5V51h8.51v-8.5h17V34zm-17 0h-8.5v-8.49h8.5zM34 25.51V34h-8.49v-8.49zM51 34v-8.49h8.51V34zm25.52 0v-8.49H85V34z" data-name="レイヤー 2" />
+            </symbol>
+            <symbol id="sprite-gamehover" viewBox="0 0 110.55 68.03">
+                <title>gamehover</title>
+                <path class="gamehover-1" d="M0 34.01h17.01v8.5H0zm25.51-8.5h8.5v8.5h-8.5zm-8.5-8.5h8.5v8.5h-8.5zM8.5 8.5H17V17H8.5zm17.01 34.02h8.5v8.5h-8.5zm17.01 8.5h8.5v8.5h-8.5zm17.01 0h8.5v8.5h-8.5zM42.52 0h-8.5v8.5h8.5v8.51h8.5V8.5h-8.5V0zm17.01 8.5h8.5V17h-8.5zm8.5-8.5h8.5v8.5h-8.5zm0 59.53h8.5v8.5h-8.5zm8.51-17.01h8.5v8.5h-8.5zm0-17.01h8.5v8.5h-8.5zm8.5-8.5h8.5v8.5h-8.5zm8.5-8.51h8.5V17h-8.5zm-8.5 42.52h8.5v8.5h-8.5zm8.5 8.51h8.5v8.5h-8.5zm-59.52 0h8.5v8.5h-8.5zm-17.01-8.51h8.5v8.5h-8.5zM8.5 59.53H17v8.5H8.5zm85.04-25.52h17.01v8.5H93.54z" data-name="レイヤー 2" />
+            </symbol>
+            <symbol id="sprite-iconproductcrane" viewBox="0 0 512 469.05">
+                <title>icon-product-crane</title>
+                <g data-name="レイヤー 2">
+                    <path class="iconproductcrane-1" d="M458.68 213.06v-40.8h-40.79v-26.98h-39.74v-40.8h-90.17L287.97 0h-63.94l-.01 104.48h-90.17v40.8H94.11v26.98H53.32v40.8H0V425.2h43.86v43.86h118.03v-80.77H80.77v-49.14H48.78v-31.98h63.65v-26.6h26.6V219.4h67.76v38.56h98.41V219.4h67.77v61.17h26.6v26.6h63.65v31.98h-31.99v49.14h-81.12v80.77h118.03V425.2H512V213.06h-53.32z" data-name="Layer 1" />
+                </g>
+            </symbol>
+            <symbol id="sprite-iconproductgame" viewBox="0 0 405.12 405.33">
+                <title>icon-product-game</title>
+                <g data-name="レイヤー 2">
+                    <path class="iconproductgame-1" d="M0 0h103.04v103.04H0zm0 302.29h103.04v103.04H0zm0-151.15h103.04v103.04H0zM302.08 0h103.04v103.04H302.08zm0 302.29h103.04v103.04H302.08zm0-151.15h103.04v103.04H302.08zM151.04 0h103.04v103.04H151.04zm0 302.29h103.04v103.04H151.04zm0-151.15h103.04v103.04H151.04z" data-name="Layer 1" />
+                </g>
+            </symbol>
+            <symbol id="sprite-iconproductprize" viewBox="0 0 102.05 68.03">
+                <title>icon-product-prize</title>
+                <g data-name="レイヤー 2">
+                    <path class="iconproductprize-1" d="M42.52 51.02v8.5h17.01v-8.5H42.52z" />
+                    <path class="iconproductprize-1" d="M93.54 17V8.5H68V0H34v8.5H8.5V17H0v25.52h17V51H8.5v8.51H17V68h17v-8.5h-8.49V51h17v-8.5h17V51h17v8.51H68V68h17v-8.5h8.5V51H85v-8.5h17V17zM34 34h-8.49v-8.5h17V34zm25.51-8.5h17V34h-17z" />
+                </g>
+            </symbol>
+            <symbol id="sprite-iconsearcharea" viewBox="0 0 20 24">
+                <title>icon-search-area</title>
+                <g data-name="レイヤー 2">
+                    <path class="iconsearcharea-1" d="M18 6V2h-4V0H6v2H2v4H0v6h2v4h2v4h2v2h2v2h4v-2h2v-2h2v-4h2v-4h2V6zm-4 6h-2v2H8v-2H6V8h2V6h4v2h2z" data-name="レイヤー 3" />
+                </g>
+            </symbol>
+            <symbol id="sprite-iconsearchgame" viewBox="0 0 24 24">
+                <title>icon-search-game</title>
+                <g data-name="レイヤー 2">
+                    <path class="iconsearchgame-1" d="M2 22v-2H0v4h10v-4H8v2H2zM8 0H2v2H0v6h2v2h2v8H2v2h6v-2H6v-8h2V8h2V2H8V0zm7 7h-2v2h-2v2h2v2h2v-2h2V9h-2V7zm7-1V4h-2v2h-2v2h2v2h2V8h2V6h-2zm-7 9h-2v2h-2v2h2v2h2v-2h2v-2h-2v-2zm7-3h-2v2h-2v2h2v2h2v-2h2v-2h-2v-2z" data-name="レイヤー 3" />
+                </g>
+            </symbol>
+            <symbol id="sprite-iconsearchprize" viewBox="0 0 68.03 68.03">
+                <title>icon-search-prize</title>
+                <path class="iconsearchprize-1" d="M59.53 25.51V17H51V8.5h-8.5V0h-17v8.5H17V17H8.5v8.5H0v17h17V51h8.5v-8.5h17V51H51v-8.5h17v-17zM17 34v-8.5h8.5V34zm25.51 0v-8.5H51V34zM8.5 51.02H17v8.5H8.5zm25.52 0h-8.51v8.5h17.01v-8.5h-8.5zm17 0h8.5v8.5h-8.5zM0 59.53h8.5v8.5H0zm17.01 0h8.5v8.5h-8.5zm25.51 0h8.5v8.5h-8.5zm17.01 0h8.5v8.5h-8.5z" data-name="レイヤー 2" />
+            </symbol>
+            <symbol id="sprite-logo" viewBox="0 0 213.37 68.49">
+                <title>logo</title>
+                <g data-name="レイヤー 2">
+                    <g data-name="レイヤー 1">
+                        <path class="logo-1" d="M207.14 13.57a6.23 6.23 0 1 1-6.23 6.23 6.23 6.23 0 0 1 6.23-6.23zm0 .78a5.45 5.45 0 1 0 5.46 5.45 5.45 5.45 0 0 0-5.46-5.45z" />
+                        <path class="logo-1" d="M205.75 23h-1.15v-6.3h4a1.89 1.89 0 0 1-.07 3.76l1.74 2.5H209l-1.73-2.42h-1.52zm2.54-3.55a.91.91 0 0 0 .9-.87.87.87 0 0 0-.85-.89h-2.59v1.76zm-162.3 1.71H0v8.96h17.48v37.03h11.03V30.12h17.48v-8.96zm105.97 0h-46v8.96h17.48v37.03h11.04V30.12h17.48v-8.96zm-60.53 0h11.04v45.99H91.43zM60.94 67.15h29.89l-19.9-36.62a53.56 53.56 0 0 0-9.99 36.62zm-27.6 0H49a65.05 65.05 0 0 1 19.84-40.47l-6.75-12.42zM97 0a8.28 8.28 0 1 0 8.28 8.28A8.27 8.27 0 0 0 97 0zM84.69 17.29L84 16a65.05 65.05 0 0 0-15.16 10.68l2.09 3.85a54 54 0 0 1 13.76-13.24zm94.86 2.39c-15.82 0-27.6 9.82-27.6 24.41s11.78 24.4 27.6 24.4 27.59-9.82 27.59-24.4-11.77-24.41-27.59-24.41zm0 40.3c-8.79 0-15.91-6.32-15.91-15.89s7.12-15.9 15.91-15.9 15.91 6.32 15.91 15.9S188.34 60 179.55 60z" />
+                    </g>
+                </g>
+            </symbol>
+            <symbol id="sprite-sample-a" viewBox="0 0 168.77 17.7">
+                <title>SAMPLE-A.SVG</title>
+                <path d="M11.17 12.62a4.44 4.44 0 0 1-1.67 3.66 7.27 7.27 0 0 1-4.65 1.33 10.88 10.88 0 0 1-4.85-1v-3.4a20.34 20.34 0 0 0 2.94 1.09 8.67 8.67 0 0 0 2.19.31A3.19 3.19 0 0 0 7 14.16a1.59 1.59 0 0 0 .64-1.36 1.49 1.49 0 0 0-.29-.9 3.21 3.21 0 0 0-.82-.76c-.37-.24-1.11-.62-2.22-1.16a10.71 10.71 0 0 1-2.39-1.41A5.34 5.34 0 0 1 .67 7 4.52 4.52 0 0 1 .2 4.88 4.43 4.43 0 0 1 1.74 1.3 6.4 6.4 0 0 1 6 0a10.12 10.12 0 0 1 2.55.32 16.84 16.84 0 0 1 2.54.89L9.91 4a16.64 16.64 0 0 0-2.26-.78A7.29 7.29 0 0 0 5.88 3a2.35 2.35 0 0 0-1.58.5 1.58 1.58 0 0 0-.55 1.26A1.55 1.55 0 0 0 4 5.6a2.76 2.76 0 0 0 .71.69A23.63 23.63 0 0 0 7 7.49a9.11 9.11 0 0 1 3.3 2.3 4.51 4.51 0 0 1 .87 2.83zm13.59 4.76l-1.24-4.08h-6.25L16 17.38h-3.88l6-17.2h4.45l6.07 17.2zm-2.11-7.13C21.5 6.56 20.86 4.47 20.71 4s-.25-.86-.31-1.14c-.26 1-1 3.47-2.21 7.41zm15.44 7.13L34 3.94h-.1c.14 2.73.22 4.56.22 5.47v8h-3.29V.25h5l4 13.1h.07L44.2.25h4.95v17.13h-3.39V7.95c0-.5.06-1.83.16-4h-.11l-4.4 13.43zM65.3 5.59a5.25 5.25 0 0 1-1.73 4.23 7.37 7.37 0 0 1-4.92 1.47h-1.56v6.09h-3.63V.25h5.47a7.24 7.24 0 0 1 4.74 1.34 4.87 4.87 0 0 1 1.63 4zm-8.21 2.72h1.2a4 4 0 0 0 2.51-.66 2.34 2.34 0 0 0 .83-1.93 2.37 2.37 0 0 0-.7-1.89 3.28 3.28 0 0 0-2.18-.61h-1.66zm11.44 9.07V.25h3.63v14.13h7v3zm23.47 0h-9.91V.25H92v3h-6.28V7h5.8v3h-5.8v4.42H92zm2.09-4.97V9.48h6.29v2.93zm19.65 4.97l-1.24-4.08h-6.25L105 17.38h-3.9l6-17.2h4.45l6.07 17.2zm-2.11-7.13c-1.15-3.69-1.79-5.78-1.94-6.27s-.24-.86-.31-1.14c-.26 1-1 3.47-2.21 7.41zM119 15.7a2 2 0 0 1 .52-1.49 2.19 2.19 0 0 1 1.54-.5 2.07 2.07 0 0 1 1.51.52 2 2 0 0 1 .53 1.47 2 2 0 0 1-.54 1.46 2 2 0 0 1-1.5.54 2.08 2.08 0 0 1-1.52-.53 1.93 1.93 0 0 1-.54-1.47zm17.77-3.08a4.44 4.44 0 0 1-1.67 3.66 7.25 7.25 0 0 1-4.65 1.33 10.88 10.88 0 0 1-4.85-1v-3.4a20.78 20.78 0 0 0 2.94 1.09 8.67 8.67 0 0 0 2.19.31 3.19 3.19 0 0 0 1.84-.45 1.59 1.59 0 0 0 .64-1.36 1.55 1.55 0 0 0-.28-.9 3.46 3.46 0 0 0-.83-.76 22.88 22.88 0 0 0-2.22-1.14 10.71 10.71 0 0 1-2.36-1.41A5.34 5.34 0 0 1 126.27 7a4.52 4.52 0 0 1-.47-2.1 4.43 4.43 0 0 1 1.54-3.58A6.4 6.4 0 0 1 131.6 0a10.12 10.12 0 0 1 2.55.32 16.84 16.84 0 0 1 2.54.89L135.52 4a16.7 16.7 0 0 0-2.27-.78 7.29 7.29 0 0 0-1.77-.22 2.35 2.35 0 0 0-1.58.48 1.61 1.61 0 0 0-.55 1.26 1.64 1.64 0 0 0 .22.84 2.76 2.76 0 0 0 .71.69 24.27 24.27 0 0 0 2.31 1.2 9.05 9.05 0 0 1 3.29 2.3 4.51 4.51 0 0 1 .89 2.85zM149.65.25h3.67l-5.83 17.13h-4L137.72.25h3.67l3.22 10.19c.18.6.36 1.3.56 2.1s.31 1.36.35 1.67a31.36 31.36 0 0 1 .88-3.77zM162 7.76h6.79v8.88a19.73 19.73 0 0 1-3.11.76 20.8 20.8 0 0 1-3 .21 7.53 7.53 0 0 1-5.92-2.28q-2.06-2.28-2-6.54a8.64 8.64 0 0 1 2.37-6.47A9 9 0 0 1 163.66 0a12.78 12.78 0 0 1 5.09 1.05L167.54 4a8.68 8.68 0 0 0-3.9-.94 4.79 4.79 0 0 0-3.77 1.59 6.1 6.1 0 0 0-1.42 4.25 6.84 6.84 0 0 0 1.14 4.26 4 4 0 0 0 3.32 1.47 12.22 12.22 0 0 0 2.31-.23v-3.62H162z" fill="none" />
+            </symbol>
+            <symbol id="sprite-sample-b" viewBox="0 0 168.34 17.7">
+                <title>SAMPLE-B.SVG</title>
+                <path d="M11.17 12.62a4.44 4.44 0 0 1-1.67 3.66 7.27 7.27 0 0 1-4.65 1.33 10.88 10.88 0 0 1-4.85-1v-3.4a20.34 20.34 0 0 0 2.94 1.09 8.67 8.67 0 0 0 2.19.31A3.19 3.19 0 0 0 7 14.16a1.59 1.59 0 0 0 .64-1.36 1.49 1.49 0 0 0-.29-.9 3.21 3.21 0 0 0-.82-.76c-.37-.24-1.11-.62-2.22-1.16a10.71 10.71 0 0 1-2.39-1.41A5.34 5.34 0 0 1 .67 7 4.52 4.52 0 0 1 .2 4.88 4.43 4.43 0 0 1 1.74 1.3 6.4 6.4 0 0 1 6 0a10.12 10.12 0 0 1 2.55.32 16.84 16.84 0 0 1 2.54.89L9.91 4a16.64 16.64 0 0 0-2.26-.78A7.29 7.29 0 0 0 5.88 3a2.35 2.35 0 0 0-1.58.5 1.58 1.58 0 0 0-.55 1.26A1.55 1.55 0 0 0 4 5.6a2.76 2.76 0 0 0 .71.69A23.63 23.63 0 0 0 7 7.49a9.11 9.11 0 0 1 3.3 2.3 4.51 4.51 0 0 1 .87 2.83zm13.59 4.76l-1.24-4.08h-6.25L16 17.38h-3.88l6-17.2h4.45l6.07 17.2zm-2.11-7.13C21.5 6.56 20.86 4.47 20.71 4s-.25-.86-.31-1.14c-.26 1-1 3.47-2.21 7.41zm15.44 7.13L34 3.94h-.1c.14 2.73.22 4.56.22 5.47v8h-3.29V.25h5l4 13.1h.07L44.2.25h4.95v17.13h-3.39V7.95c0-.5.06-1.83.16-4h-.11l-4.4 13.43zM65.3 5.59a5.25 5.25 0 0 1-1.73 4.23 7.37 7.37 0 0 1-4.92 1.47h-1.56v6.09h-3.63V.25h5.47a7.24 7.24 0 0 1 4.74 1.34 4.87 4.87 0 0 1 1.63 4zm-8.21 2.72h1.2a4 4 0 0 0 2.51-.66 2.34 2.34 0 0 0 .83-1.93 2.37 2.37 0 0 0-.7-1.89 3.28 3.28 0 0 0-2.18-.61h-1.66zm11.44 9.07V.25h3.63v14.13h7v3zm23.47 0h-9.91V.25H92v3h-6.28V7h5.8v3h-5.8v4.42H92zm2.09-4.97V9.48h6.29v2.93zM103.25.25h5.34a10.3 10.3 0 0 1 5.29 1 3.62 3.62 0 0 1 1.64 3.3 4.13 4.13 0 0 1-.72 2.52 2.9 2.9 0 0 1-1.91 1.19v.14a3.8 3.8 0 0 1 2.35 1.36 4.45 4.45 0 0 1 .72 2.65 4.38 4.38 0 0 1-1.7 3.66 7.35 7.35 0 0 1-4.6 1.31h-6.41zM106.89 7H109a3.78 3.78 0 0 0 2.13-.46 1.67 1.67 0 0 0 .67-1.51 1.52 1.52 0 0 0-.72-1.41 4.69 4.69 0 0 0-2.28-.43h-1.91zm0 2.88v4.47h2.36a3.55 3.55 0 0 0 2.22-.57 2.12 2.12 0 0 0 .71-1.76c0-1.43-1-2.14-3-2.14zm11.7 5.82a2 2 0 0 1 .53-1.48 2.12 2.12 0 0 1 1.54-.51 2 2 0 0 1 1.5.52 1.93 1.93 0 0 1 .54 1.47 2 2 0 0 1-.54 1.46 2 2 0 0 1-1.5.54 2.11 2.11 0 0 1-1.53-.53 1.93 1.93 0 0 1-.54-1.47zm17.75-3.08a4.44 4.44 0 0 1-1.67 3.66 7.29 7.29 0 0 1-4.67 1.33 10.85 10.85 0 0 1-4.85-1v-3.4a20.28 20.28 0 0 0 2.93 1.09 8.74 8.74 0 0 0 2.2.31 3.13 3.13 0 0 0 1.83-.45 1.56 1.56 0 0 0 .64-1.36 1.48 1.48 0 0 0-.28-.9 3.39 3.39 0 0 0-.82-.76c-.37-.24-1.11-.62-2.22-1.16a10.48 10.48 0 0 1-2.36-1.41A5.34 5.34 0 0 1 125.84 7a4.4 4.4 0 0 1-.47-2.1 4.43 4.43 0 0 1 1.54-3.58A6.4 6.4 0 0 1 131.17 0a10.12 10.12 0 0 1 2.55.32 16.37 16.37 0 0 1 2.53.89L135.08 4a16.25 16.25 0 0 0-2.27-.78 7.15 7.15 0 0 0-1.76-.22 2.33 2.33 0 0 0-1.58.48 1.58 1.58 0 0 0-.55 1.26 1.55 1.55 0 0 0 .22.84 2.76 2.76 0 0 0 .71.69 22.42 22.42 0 0 0 2.3 1.2 9.2 9.2 0 0 1 3.3 2.3 4.51 4.51 0 0 1 .89 2.85zM149.21.25h3.67l-5.82 17.13h-4L137.29.25H141l3.23 10.19c.18.6.36 1.3.55 2.11s.31 1.35.36 1.67a31 31 0 0 1 .88-3.78zm12.33 7.51h6.8v8.88a19.73 19.73 0 0 1-3.11.76 20.91 20.91 0 0 1-3 .21 7.56 7.56 0 0 1-5.93-2.28q-2-2.28-2-6.54a8.64 8.64 0 0 1 2.37-6.47A9 9 0 0 1 163.23 0a12.82 12.82 0 0 1 5.09 1.05L167.11 4a8.68 8.68 0 0 0-3.9-.94 4.83 4.83 0 0 0-3.78 1.59A6.14 6.14 0 0 0 158 8.86a6.84 6.84 0 0 0 1.14 4.26 4 4 0 0 0 3.32 1.47 12.22 12.22 0 0 0 2.31-.23v-3.58h-3.25z" fill="none" />
+            </symbol>
+            <symbol id="sprite-store" viewBox="0 0 93.54 68.03">
+                <title>store</title>
+                <path class="str-1" d="M17.01 0h8.5v8.5h-8.5zm51.02 0h8.5v8.5h-8.5zm17.01 34.01v-8.5h-8.51V17h-8.5V8.5h-8.5V17H34.01V8.5h-8.53V17h-8.5v8.51h-8.5v8.5H0v25.51h8.48v-17h8.51v17h8.49v-8.5h42.55v8.5h8.5v-17h8.51v17h8.5V34.01zm-17-8.5v8.5h-8.5v-8.5zm-34 0v8.5h-8.56v-8.5zm-8.53 34.02h17.01v8.5H25.51zm25.51 0h17.01v8.5H51.02z" />
+            </symbol>
+            <symbol id="sprite-storehover" viewBox="0 0 93.54 68.03">
+                <title>storehover</title>
+                <path class="strh-1" d="M17.01 0h8.5v8.5h-8.5zm51.02 0h8.5v8.5h-8.5zM85 8.5v17h-8.5V17H68V8.5h-8.5V17H34V8.5h-8.49V17H17v8.5H8.5v-17H0v34h8.5V51H17v8.51h8.5V51H68v8.51h8.51V51H85v-8.5h8.5v-34zm-17 17V34h-8.5v-8.5zm-34 0V34h-8.49v-8.5zM8.5 59.53H17v8.5H8.5zm68.04 0h8.5v8.5h-8.5z" data-name="レイヤー 2" />
+            </symbol>
+        </svg>
+        <div class="l-header nav-fade js-nav display" id="js-header">
+            <header class="js-anim-header anim-header header">
+                <div class="header-content-wrap">
+                    <!-- トップページのtaitoロゴにだけ、h1を入れてください -->
+                    <div class="header-logo">
+                        <a href="/zh-CN/">
+                            <img class="header-logo-image" src="/Content/images/logo-top.svg" alt="タイトー公式ページ" />
+                        </a>
+                    </div>
+                    <ul class="header-sp-list u-hidden-pc">
+                        <li class="header-sp-list-item">
+                            <a class="header-sp-link" href="https://www.taito.co.jp/corporate/">法人のお客様</a>
+                        </li>
+                        <li class="header-sp-list-item">
+                            <span class="header-sp-link header-nav-sub-menu">LANGUAGE</span>
+                            <div class="header-subnav header-subnav--sp">
+                                <ul class="header-subnav-list header-subnav-list--sp">
+                                    <li class="header-subnav-list-item header-subnav-list-item--sp">
+                                        <a class="header-subnav-link header-subnav-link--sp header-subnav-link--english" href="/zh-CN/en/">
+                                            <span>ENGLISH</span>
+                                        </a>
+                                    </li>
+                                    <li class="header-subnav-list-item header-subnav-list-item--sp">
+                                        <a class="header-subnav-link header-subnav-link--sp header-subnav-link--chinese" href="/zh-CN/ch1/">
+                                            <span>简体中文</span>
+                                        </a>
+                                    </li>
+                                    <li class="header-subnav-list-item header-subnav-list-item--sp">
+                                        <a class="header-subnav-link header-subnav-link--sp header-subnav-link--chinese" href="/lang/ch2/">
+                                            <span>繁體中文</span>
+                                        </a>
+                                    </li>
+                                    <li class="header-subnav-list-item header-subnav-list-item--sp">
+                                        <a class="header-subnav-link header-subnav-link--sp header-subnav-link--korean" href="/lang/kr/">
+                                            <span>한국어<span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <nav class="header-nav">
+                        <ul class="header-nav-list">
+                            <li class="header-nav-list-item header-nav-list-item--store header-nav-sub-menu">
+                                <span class="header-nav-link header-nav-link--store">
+                                    <svg class="header-nav-link-svg">
+                                        <use xlink:href="#sprite-store"></use>
+                                    </svg>
+                                    <svg class="header-nav-link-svg">
+                                        <use xlink:href="#sprite-storehover"></use>
+                                    </svg>
+                                    <span class="header-nav-link-text">店舗を探す</span>
+                                </span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav-list">
+                                        <li class="header-subnav-list-item">
+                                            <a class="header-subnav-link header-subnav-link--area" href="/gc/">
+                                                <svg class="header-nav-link-svg header-subnav-link-icon">
+                                                    <use xlink:href="#sprite-iconsearcharea"></use>
+                                                </svg>
+                                                <span>エリアから探す</span>
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav-list-item">
+                                            <a class="header-subnav-link header-subnav-link--game" href="/arc/">
+                                                <svg class="header-nav-link-svg header-subnav-link-icon">
+                                                    <use xlink:href="#sprite-iconsearchgame"></use>
+                                                </svg>
+                                                <span>ゲームから探す</span>
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav-list-item">
+                                            <a class="header-subnav-link header-subnav-link--prize" href="/prize/">
+                                                <svg class="header-nav-link-svg header-subnav-link-icon">
+                                                    <use xlink:href="#sprite-iconsearchprize"></use>
+                                                </svg>
+                                                <span>プライズから探す</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-nav-list-item header-nav-list-item--products header-nav-sub-menu">
+                                <span class="header-nav-link header-nav-link--products">
+                                    <svg class="header-nav-link-svg">
+                                        <use xlink:href="#sprite-game"></use>
+                                    </svg>
+                                    <svg class="header-nav-link-svg">
+                                        <use xlink:href="#sprite-gamehover"></use>
+                                    </svg>
+                                    <span class="header-nav-link-text">タイトーの商品紹介</span>
+                                </span>
+                                <div class="header-subnav">
+                                    <ul class="header-subnav-list">
+                                        <li class="header-subnav-list-item">
+                                            <a class="header-subnav-link header-subnav-link--product-prize" href="/taito-prize/">
+                                                <svg class="header-nav-link-svg header-subnav-link-icon">
+                                                    <use xlink:href="#sprite-iconproductprize"></use>
+                                                </svg>
+                                                <span>タイトープライズ・グッズ</span>
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav-list-item">
+                                            <a class="header-subnav-link header-subnav-link--product-game" href="/mob/">
+                                                <svg class="header-nav-link-svg header-subnav-link-icon">
+                                                    <use xlink:href="#sprite-iconproductgame"></use>
+                                                </svg>
+                                                <span>ゲーム・アプリ</span>
+                                            </a>
+                                        </li>
+                                        <li class="header-subnav-list-item">
+                                            <a class="header-subnav-link header-subnav-link--crane" href="https://www.taito.co.jp/online_crane/">
+                                                <svg class="header-nav-link-svg header-subnav-link-icon">
+                                                    <use xlink:href="#sprite-iconproductcrane"></use>
+                                                </svg>
+                                                <span>タイトーオンラインクレーン</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-nav-list-item header-nav-list-item--event">
+                                <a class="header-nav-link header-nav-link--event" href="/event/">
+                                    <svg class="header-nav-link-svg">
+                                        <use xlink:href="#sprite-event"></use>
+                                    </svg>
+                                    <svg class="header-nav-link-svg">
+                                        <use xlink:href="#sprite-eventhover"></use>
+                                    </svg>
+                                    <span class="header-nav-link-text">イベント</span>
+                                </a>
+                            </li>
+                            <li class="header-nav-list-item u-hidden-sp">
+                                <ul class="header-altnav-list">
+                                    <li class="header-altnav-list-item">
+                                        <a class="header-altnav-link header-altnav-link-customer" href="https://www.taito.co.jp/corporate/">法人のお客様</a>
+                                    </li>
+                                    <li class="header-altnav-list-item header-nav-sub-menu">
+                                        <span class="header-altnav-link header-altnav-link-language">LANGUAGE</span>
+                                        <div class="header-subnav">
+                                            <ul class="header-subnav-list">
+                                                <li class="header-subnav-list-item">
+                                                    <a class="header-subnav-link header-subnav-link--english" href="/lang/en/">
+                                                        <span>ENGLISH</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header-subnav-list-item">
+                                                    <a class="header-subnav-link header-subnav-link--chinese" href="/lang/ch1/">
+                                                        <span>简体中文</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header-subnav-list-item">
+                                                    <a class="header-subnav-link header-subnav-link--chinese" href="/lang/ch2/">
+                                                        <span>繁體中文</span>
+                                                    </a>
+                                                </li>
+                                                <li class="header-subnav-list-item">
+                                                    <a class="header-subnav-link header-subnav-link--korean" href="/lang/kr/">
+                                                        <span>한국어</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="copyright-wrap">
+            <div class="copyright-wrap-content">
+                <p class="js-anim-copyright anim-copyright copyright u-hidden-sp">
+                    &copy; TAITO CORPORATION 2019 ALL RIGHTS RESERVED.
+                </p>
+            </div>
+        </div>
+        <span class="js-sprite-top-left sprite-top-left sprite-border u-hidden-sp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 23">
+                <defs>
+                    <style>
+                        .cls-border {
+                            fill: #e60000;
+                            fill-rule: evenodd;
+                            stroke-width: 0;
+                        }
+                    </style>
+                </defs>
+                <title>sprite-top-left_1</title>
+                <g><g><polygon class="cls-border" points="8 8 22 8 22 0 0 0 0 23 8 23 8 8" /></g></g>
+            </svg>
+        </span>
+        <span class="js-sprite-top-right sprite-top-right sprite-border u-hidden-sp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 22">
+                <defs>
+                    <style>
+                        .cls-border {
+                            fill: #e60000;
+                            fill-rule: evenodd;
+                            stroke-width: 0;
+                        }
+                    </style>
+                </defs>
+                <title>sprite-top-right</title>
+                <g><g><polygon class="cls-border" points="15 8 15 22 23 22 23 0 0 0 0 8 15 8" /></g></g>
+            </svg>
+        </span>
+        <span class="js-sprite-bottom-left sprite-bottom-left sprite-border u-hidden-sp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23 22">
+                <defs>
+                    <style>
+                        .cls-border {
+                            fill: #e60000;
+                            fill-rule: evenodd;
+                            stroke-width: 0;
+                        }
+                    </style>
+                </defs>
+                <title>sprite-top-left</title>
+                <g><g><polygon class="cls-border" points="8 14 8 0 0 0 0 22 23 22 23 14 8 14" /></g></g>
+            </svg>
+        </span>
+        <span class="js-sprite-bottom-right sprite-bottom-right sprite-border u-hidden-sp">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 23">
+                <defs>
+                    <style>
+                        .cls-border {
+                            fill: #e60000;
+                            fill-rule: evenodd;
+                            stroke-width: 0;
+                        }
+                    </style>
+                </defs>
+                <title>sprite-bottom-right</title>
+                <g><g><polygon class="cls-border" points="14 15 0 15 0 23 22 23 22 0 14 0 14 15" /></g></g>
+            </svg>
+        </span><!-- 該当ページのURLを取得するようBE側で実装してください -->
+        <div class="js-anim-sns anim-sns sns-wrap u-hidden-sp">
+            <div class="sns-wrap-content">
+                <ul class="sns-list">
+                    <li class="sns-list-item sns-list-item-twitter">
+                        <span class="sns-list-item-link">
+                            <svg class="sns-list-item-link-image" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 26">
+                                <defs>
+                                    <style>
+                                        .cls-twit {
+                                            fill: #55adee !important;
+                                            fill-rule: evenodd;
+                                            stroke-width: 0;
+                                        }
+
+                                        .cls-2 {
+                                            fill: #fff;
+                                            stroke-width: 0;
+                                        }
+                                    </style>
+                                </defs>
+                                <title>sns-twitter</title>
+                                <g><g id="Layer_1-2" data-name="Layer 1"><polygon class="cls-twit" points="0 6.5 3.5 6.5 3.5 2.5 8.5 2.5 8.5 0 16.5 0 16.5 2.5 21.5 2.5 21.5 6.5 25 6.5 25 19.5 21.5 19.5 21.5 23.5 16.5 23.5 16.5 26 8.5 26 8.5 23.5 3.5 23.5 3.5 19.51 0 19.5 0 6.5" /><path class="cls-2" d="M19.78,8.69a5.81,5.81,0,0,1-1.63.45A2.83,2.83,0,0,0,19.4,7.57a5.85,5.85,0,0,1-1.81.69,2.86,2.86,0,0,0-4.86,2.6,8.08,8.08,0,0,1-5.87-3,2.77,2.77,0,0,0-.39,1.43,2.86,2.86,0,0,0,1.27,2.37,2.66,2.66,0,0,1-1.29-.36h0a2.84,2.84,0,0,0,2.29,2.79,2.71,2.71,0,0,1-.75.1,2.47,2.47,0,0,1-.54,0,2.83,2.83,0,0,0,2.66,2A5.63,5.63,0,0,1,6.57,17.4a3.86,3.86,0,0,1-.68,0,8.11,8.11,0,0,0,12.48-6.83V10.2A5.49,5.49,0,0,0,19.78,8.69Z" /></g></g>
+                            </svg>
+                        </span>
+                        <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">
+                            tweet
+                        </a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </li>
+                    <li class="sns-list-item">
+                        <a class="sns-list-item-link" data-type="facebook" href="https://www.facebook.com/sharer/sharer.php?u=page-url-here" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;">
+                            <svg class="sns-list-item-link-image" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 26">
+                                <defs>
+                                    <style>
+
+                                        .cls-fb {
+                                            fill: #3a5997 !important;
+                                            fill-rule: evenodd;
+                                            stroke-width: 0;
+                                        }
+
+                                        .cls-2 {
+                                            fill: #fff;
+                                            stroke-width: 0;
+                                        }
+                                    </style>
+                                </defs>
+                                <title>sns-facebook</title>
+                                <g>
+                                    <g>
+                                        <polygon class="cls-fb" points="0 6.5 3.5 6.5 3.5 2.5 8.5 2.5 8.5 0 16.5 0 16.5 2.5 21.5 2.5 21.5 6.5 25 6.5 25 19.5 21.5 19.5 21.5 23.5 16.5 23.5 16.5 26 8.5 26 8.5 23.5 3.5 23.5 3.5 19.51 0 19.5 0 6.5" />
+                                        <path id="Facebook" class="cls-2" d="M10.77,9.39v1.79H9.45v2.2h1.32v6.54h2.71V13.38h1.81s.17-1.05.25-2.2h-2V9.67a.63.63,0,0,1,.58-.52h1.48V6.86h-2C10.7,6.86,10.77,9.06,10.77,9.39Z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="sns-list-item">
+                        <a class="sns-list-item-link" href="http://line.me/R/msg/text/?page-url-here" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 26">
+                                <defs>
+                                    <style>
+
+                                        .cls-1line {
+                                            fill: #54b52d;
+                                            fill-rule: evenodd;
+                                            stroke-width: 0;
+                                        }
+
+                                        .cls-2line {
+                                            fill: #fff;
+                                            stroke-width: 0;
+                                        }
+                                    </style>
+                                </defs>
+                                <title>sns-line</title>
+                                <g id="レイヤー_2" data-name="レイヤー 2">
+                                    <g id="レイヤー_1-2" data-name="レイヤー 1">
+                                        <polygon class="cls-1line" points="0 6.5 3.5 6.5 3.5 2.5 8.5 2.5 8.5 0 16.5 0 16.5 2.5 21.5 2.5 21.5 6.5 25 6.5 25 19.5 21.5 19.5 21.5 23.5 16.5 23.5 16.5 26 8.5 26 8.5 23.5 3.5 23.5 3.5 19.51 0 19.5 0 6.5" />
+                                        <path class="cls-2line" d="M19.79,13c0-3.26-3.27-5.92-7.29-5.92S5.21,9.71,5.21,13c0,2.92,2.59,5.37,6.1,5.84.23.05.56.15.64.36a1.43,1.43,0,0,1,0,.65s-.08.52-.1.63-.15.72.63.39a23.56,23.56,0,0,0,5.73-4.23h0A5.28,5.28,0,0,0,19.79,13ZM9.93,14.71a.14.14,0,0,1-.14.14h-2a.11.11,0,0,1-.09,0h0a.18.18,0,0,1,0-.1h0V11.54a.15.15,0,0,1,.14-.15h.52a.15.15,0,0,1,.14.15v2.52H9.79a.14.14,0,0,1,.14.14Zm1.23,0a.14.14,0,0,1-.14.14h-.51a.14.14,0,0,1-.14-.14V11.54a.15.15,0,0,1,.14-.15H11a.15.15,0,0,1,.14.15Zm3.52,0a.14.14,0,0,1-.14.14H14a.08.08,0,0,1,0,0l-1.46-2v1.88a.14.14,0,0,1-.14.14H11.8a.14.14,0,0,1-.14-.14V11.54a.15.15,0,0,1,.14-.15h.62v0l1.45,2V11.54a.15.15,0,0,1,.15-.15h.51a.15.15,0,0,1,.14.15Zm2.82-2.66a.14.14,0,0,1-.14.14H16v.54h1.39a.14.14,0,0,1,.14.14v.51a.14.14,0,0,1-.14.14H16v.54h1.39a.14.14,0,0,1,.14.14v.51a.14.14,0,0,1-.14.14h-2a.13.13,0,0,1-.1,0h0a.13.13,0,0,1,0-.1h0V11.54h0a.12.12,0,0,1,0-.1h0a.18.18,0,0,1,.1,0h2a.15.15,0,0,1,.14.15Z" />
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="js-anim-particles anim-particles-wrapper"></div>
+        <!-- SVG Data -->
+        <!--TODO: SVG title headers are needed to be markup as inline SVG in order for us to add css animation -->
+
+        <main class="l-body">
+
+            <div class="l-body-inner">
+                <section class="not-found">
+                    <div class="not-found-content">
+                        <div class="not-found-logo">
+                            <a href="/"><img class="not-found-logo-image" src="/Content/images/logo-top.svg" alt="タイトー公式ページ" /></a>
+                        </div>
+                        <div class="not-found-head" id="js-not-found-head">
+                            <h2 class="not-found-title">お探しのページは<br class=" u-hidden-pc">見つかりませんでした</h2>
+                            <p class="not-found-text">申し訳ありませんが、お探しのページは<br class=" u-hidden-pc">存在しないか、アクセスできません。</p>
+                        </div>
+
+                        <div class="not-found-game-over" id="js-game-over">
+                            <img src="/Content/images/404/gameover.png" class="not-found-game-over-title" alt="GAME OVER">
+                            <img src="/Content/images/404/game-over-chara.png" class="not-found-game-over-chara" alt="">
+                            <a class="not-found-game-over-btn" href="/">
+                                トップページへ
+                            </a>
+                            <a class="not-found-game-over-link" href="#" id="js-continue">
+                                リトライ
+                            </a>
+                        </div>
+                        <div class="not-found-footer">
+                            <div class="not-found-left">
+                                <a href="/">
+                                    <img src="/Content/images/404/left-arrow.png" class="not-found-arrow-img" alt="">
+                                    <img src="/Content/images/404/toppage.png" class="not-found-toppage-img" alt="TOP PAGE">
+                                </a>
+                            </div>
+                            <div class="not-found-right">
+                                <img src="/Content/images/404/creadit.png" class="not-found-creadit-img" alt="">
+                                <img src="/Content/images/404/00.png" class="not-found-00-img" alt="">
+                            </div>
+                        </div>
+                        <div class="not-found-btns" id="js-not-found-btns">
+                            <span class="not-found-btns-left" id="js-not-found-btns-left"><img src="/Content/images/404/sp-btn-left.png" alt=""></span>
+                            <span class="not-found-btns-shot" href="#" id="js-not-found-btns-shot"><img src="/Content/images/404/sp-btn-shot.png" alt=""></span>
+                            <span class="not-found-btns-right" id="js-not-found-btns-right"><img src="/Content/images/404/sp-btn-right.png" alt=""></span>
+                        </div>
+                    </div>
+                    <div class="not-found-game-wrap" id="js-game-canvas-wrap">
+                        <div id="score" style="display: none"></div>
+                        <div id="highscores" style="display: none"></div>
+                        <div id="menu" style="display: none"></div>
+                        <div id="title" style="display: none"></div>
+                        <div id="lives" style="display: none"></div>
+                        <canvas id="game-layer" class="game-canvas" width="1120" height="524"></canvas>
+                    </div>
+                    <!--      <div class="not-found-game-wrap">-->
+                    <!--        -->
+                    <!--      </div>-->
+                </section>
+            </div>
+            <!-- Modal -->
+        </main>
+        <script src="/Scripts/main/404.js"></script>
+        <div class="js-section slider-footer-wrap">
+            <div class="swiper-container slider slider--footer js-slider--footer">
+                <div class="swiper-wrapper slider-list">
+                    <div class="swiper-slide slider-list-item slider-list-item--footer">
+                        <a class="slider-link" href="https://www.taito.co.jp/taitoapp">
+                            <img class="slider-link-image" src="/Content/images/footer-banner-1.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider-list-item slider-list-item--footer">
+                        <a class="slider-link" href="/how-to/">
+                            <img class="slider-link-image" src="/Content/images/footer-banner-2.jpg" alt="" />
+                        </a>
+                    </div>
+                    <div class="swiper-slide slider-list-item slider-list-item--footer">
+                        <a class="slider-link" href="https://www.rakuten.ne.jp/gold/taito-toys/">
+                            <img class="slider-link-image" src="/Content/images/footer-banner-3.jpg" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="js-section-footer l-footer">
+            <footer class="footer">
+                <div class="footer-content-wrapper">
+                    <div class="footer-scroll-top">
+                        <a class="footer-scroll-top-link js-footer-scroll-top-link js-scrolltop" href="#body-top">
+                            <img class="footer-scroll-top-link-image" src="/Content/images/icon-footer-arrow.png" alt="" />
+                        </a>
+                    </div>
+                    <section class="footer-profile">
+                        <div class="footer-column">
+                            <h3 class="footer-profile-heading">公式ソーシャルメディア</h3>
+                            <ul class="footer-profile-list">
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="/twitter_list/">
+                                        <img class="profile-link-icon" src="/Content/images/icon-twitter.jpg" alt="" />
+                                        <span class="profile-link-text">Twitter</span>
+                                    </a>
+                                </li>
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="/facebook_list/">
+                                        <img class="profile-link-icon" src="/Content/images/icon-facebook.jpg" alt="" />
+                                        <span class="profile-link-text">Facebook</span>
+                                    </a>
+                                </li>
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="https://www.youtube.com/user/taitochannel" target="_blank">
+                                        <img class="profile-link-icon" src="/Content/images/icon-youtube.jpg" alt="" />
+                                        <span class="profile-link-text">Youtube</span>
+                                    </a>
+                                </li>
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="https://ch.nicovideo.jp/ch175" target="_blank">
+                                        <img class="profile-link-icon" src="/Content/images/icon-niconico.jpg" alt="" />
+                                        <span class="profile-link-text">niconico</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3 class="footer-profile-heading">公式生放送</h3>
+                            <ul class="footer-profile-list">
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="https://www.taito.co.jp/gc/service/taitolive">
+                                        <img class="profile-link-icon profile-link-icon--taito-live" src="/Content/images/icon-taito-live.jpg" alt="" />
+                                        <span class="profile-link-text">TAITO LIVE</span>
+                                    </a>
+                                </li>
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="https://freshlive.tv/zuntata" target="_blank">
+                                        <img class="profile-link-icon" src="/Content/images/icon-zuntata-channel.jpg" alt="" />
+                                        <span class="profile-link-text">
+                                            ZUNTATA <br />
+                                            CHANNEL
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="footer-profile-list-item">
+                                    <a class="profile-link" href="https://ch.nicovideo.jp/ch175" target="_blank">
+                                        <img class="profile-link-icon" src="/Content/images/icon-taito-channel.jpg" alt="" />
+                                        <span class="profile-link-text">
+                                            TAITO <br />
+                                            CHANNEL
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                    <nav class="footer-nav">
+                        <ul class="footer-nav-list">
+                            <li class="footer-nav-list-item u-hidden-pc">
+                                <a class="footer-nav-list-item-link" href="/">トップページ</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="https://www.taito.co.jp/corporate/">法人のお客様</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="https://www.taito.co.jp/corporate/about/">会社情報</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="https://www.taito.co.jp/corporate/recruitment/">採用情報</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="https://taito-saiyo.jp/-/top/index.html/" target="_blank">アルバイト募集</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="https://www.taito.co.jp/corporate/privacypolicy/">プライバシーポリシー</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="http://taito.test-web.asia/corporare.guideline/">利用規約</a>
+                            </li>
+                            <li class="footer-nav-list-item">
+                                <a class="footer-nav-list-item-link" href="/contact_us/">お問い合わせ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <p class="footer-copyright u-hidden-pc">&copy; TAITO CORPORATION 2019 ALL RIGHTS RESERVED.</p>
+            </footer>
+        </div>
+    </div>
+    <!-- Store Widget for SP -->
+    <div class="store-widget-container" id="js-store-icon-button">
+        <a class="store-widget-icon" href="#">
+            <!-- <span>近くの店舗 を探す</span> -->
+        </a>
+    </div>
+    <!-- End of Store Widget for SP -->
+    <script src="/Scripts/main/app.js"></script>
+</body>
+</html>

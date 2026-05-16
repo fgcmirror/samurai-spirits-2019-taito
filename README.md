@@ -2,7 +2,7 @@
 
 Mirror of [https://www.taito.co.jp/nxl/title/0000002751](https://www.taito.co.jp/nxl/title/0000002751), preserved as part of the [fgcmirror](https://github.com/fgcmirror) project.
 
-Live at <https://samurai-spirits-2019.fgcmirror.com>.
+Live at <https://samurai-spirits-2019-taito.fgcmirror.com>.
 
 ## Source
 
